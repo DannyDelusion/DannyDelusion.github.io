@@ -294,7 +294,7 @@
 							// Clear interval when all images are loaded
 							clearInterval(t);
 						}
-					}, 1000);
+					}, 5000);
 				},
 				onceLoaded: function(m){
 					// Do maximage magic
