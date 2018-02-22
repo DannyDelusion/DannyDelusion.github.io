@@ -15,7 +15,7 @@
 		
 		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
 		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
-		
+
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 		
 		<!--[if IE 6]>
@@ -52,7 +52,7 @@
 				<li><a href="#home" class="active">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
-	<!--			<li><a href="#Streams">Streams</a></li> 		##	DISABLED UNTIL CHAT IS SORTED -->
+				<li><a href="#Streams">Streams</a></li> 	<!--	##	DISABLED UNTIL CHAT IS SORTED -->
 			</ul>
 		</nav>
 
@@ -99,9 +99,35 @@
 		
 		<!-- Streams Page -->
 		<section class="content hide" id="Streams">
+	<div id="light" class="white_content">
+			<iframe src="https://player.twitch.tv/?channel=DannyDelusion" width="1225" height="695" frameBorder="0"></iframe>
+			<a href = "http://twitch.tv/DanyyDelusion" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></a>
+				</div>
+			<div id="fade" class="black_overlay"></div>
+			<a href = "http://twitch.tv/DannyDelusion" onmouseleave = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" onmousemove= "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><h5>Danny Delusion</h5></a>
+	
+	<div id="light2" class="white_content">
+			<iframe src="https://player.twitch.tv/?channel=SubWeirdo" width="1225" height="695" frameBorder="0"></iframe>
+			<a href = "http://twitch.tv/SubWeirdo" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'"></a>
+				</div>
+			<div id="fade" class="black_overlay"></div>
+			<a href = "http://twitch.tv/SubWeirdo" onmouseleave = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'" onmouseenter = "document.getElementById('light2').style.display='block';document.getElementById('fade').style.display='block'"><h5>SubWeirdo</h5></a>		
 
+	<div id="light3" class="white_content">
+			<iframe src="https://player.twitch.tv/?channel=StownerGamer" width="1225" height="695" frameBorder="0" ></iframe>
+			<a href = "http://twitch.tv/StownerGamer" onclick = "document.getElementById('light3').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+				</div>
+			<div id="fade" class="black_overlay"></div>
+			<a href = "http://twitch.tv/StownerGamer" onmouseleave = "document.getElementById('light3').style.display='none'; document.getElementById('fade').style.display='none'" onmouseenter = "document.getElementById('light3').style.display='block';document.getElementById('fade').style.display='block'"><h5>StownerGamer</h5></a>	
 			
+	<div id="light4" class="white_content">
+			<iframe src="https://player.twitch.tv/?channel=Sir_Carebear" width="1225" height="695" frameBorder="0" ></iframe>
+			<a href = "http://twitch.tv/Sir_Carebear" onclick = "document.getElementById('light4').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+				</div>
+			<div id="fade" class="black_overlay"></div>
+			<a href = "http://twitch.tv/Sir_Carebear" onmouseleave = "document.getElementById('light4').style.display='none'; document.getElementById('fade').style.display='none'" onmouseenter = "document.getElementById('light4').style.display='block';document.getElementById('fade').style.display='block'"><h5>Sir_Carebear</h5></a>				
 		</section>
+
 		
 		<!-- Background Slides -->
 		<div id="maximage">
