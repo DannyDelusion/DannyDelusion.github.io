@@ -79,14 +79,14 @@ section .image {
   min-height: 480px;
   margin: 4px;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 section .image.image1 {
-  background-image: url("https://i.imgur.com/BCr3lYP.png");
+  background-image: url("https://i.imgur.com/72SACGk.jpg");
 }
 section .image.image2 {
-  background-image: url("https://i.imgur.com/TGdTHwX.png");
+  background-image: url("https://i.imgur.com/rsOGrQF.png");
 }
 section .text {
   padding: 40px;
