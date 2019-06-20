@@ -3,6 +3,10 @@ body, html {
   min-height: 100%;
 }
 
+a {
+  color: hotpink;
+}
+
 body {
   background-image: url("https://i.imgur.com/wqbbUfn.jpg");
   background-size: cover;
