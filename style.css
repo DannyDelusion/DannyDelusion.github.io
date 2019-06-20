@@ -4,7 +4,7 @@ body, html {
 }
 
 a {
-  color: hotpink;
+  color: white;
 }
 
 a:hover {
@@ -137,6 +137,11 @@ section.discord-widget iframe {
 section.join {
   padding: 40px;
 }
+section.derp {
+  padding: 1px;
+  color: Grey;
+}
+
 section.join .btn-pill {
   margin: 30px;
 }
@@ -216,7 +221,7 @@ h3 {
   color: #fff;
   font-weight: 900;
   padding: 0;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 .btn-pill {
@@ -242,6 +247,13 @@ h3 {
 
 a.links-suppressor, .links-suppressor a {
   text-decoration: none;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
 }
+.marginauto {
+    margin: 10px auto 10px;
+    display: block;
+}
+
